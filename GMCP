@@ -1,0 +1,23 @@
+List of GMPC attributes:
+https://nexus.ironrealms.com/GMCP
+
+
+
+GMCP.Room.Info.area                     // "Eleusis"
+GMCP.Room.Info.coords                   // "51,2,-2,1"
+GMCP.Room.Info.desc                     // "Deep green ivy winds its way through the diamond-shaped wooden trellises, ..."
+GMCP.Room.Info.environment              // "Path", "Desert", "Vessel"
+GMCP.Room.Info.exits                    // {w: 6746, nw: 6744}
+GMCP.Room.Info.map                      // "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 7 11"
+GMCP.Room.Info.name                     // "Sheltered vantage"
+GMCP.Room.Info.num                      // 6745
+
+
+
+
+GMCP.Char.Items.List.items              // list of items in the room
+
+
+
+
+GMCP.CharStats[1].substring(6)          // Battlerage

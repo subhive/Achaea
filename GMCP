@@ -6,7 +6,7 @@ https://nexus.ironrealms.com/GMCP
 GMCP.Room.Info.area                     // "Eleusis"
 GMCP.Room.Info.coords                   // "51,2,-2,1"
 GMCP.Room.Info.desc                     // "Deep green ivy winds its way through the diamond-shaped wooden trellises, ..."
-GMCP.Room.Info.environment              // "Path", "Desert", "Vessel"
+GMCP.Room.Info.environment              // "Trees"
 GMCP.Room.Info.exits                    // {w: 6746, nw: 6744}
 GMCP.Room.Info.map                      // "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 7 11"
 GMCP.Room.Info.name                     // "Sheltered vantage"
@@ -14,10 +14,20 @@ GMCP.Room.Info.num                      // 6745
 
 
 
-
 GMCP.Char.Items.List.items              // list of items in the room
 
 
 
-
 GMCP.CharStats[1].substring(6)          // Battlerage
+
+GMCP.gauge_data.hp                      // Current health
+GMCP.gauge_data.maxhp                   // Max health
+GMCP.gauge_data.mana                    // Current mana
+GMCP.gauge_data.maxmana                 // Max mana
+
+  e.g. healthPercent = Math.round((GMCP.gauge_data.hp / GMCP.gauge_data.maxhp) * 100);    // Calculate health percentage
+       manaPercent = Math.round((GMCP.gauge_data.mana / GMCP.gauge_data.maxmana) * 100);  // Calculate mana percentage
+
+
+
+GMCP.Status.class                       // "Black Dragon", "air Elemental Lady", "Shaman"

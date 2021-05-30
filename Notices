@@ -1,0 +1,10 @@
+
+print("My notice", "orange");
+
+display_notice("My notice", "#ff0000");
+
+
+
+ow_Write("#output_main", "<span style='color: orange;'>Notice: </span><span style='color: green;'>Is colourful</span>");
+
+ow_Write(`#output_main`, `<span style='color: #00ccff; background: #155354;'>[<span style='color: ${colour};'>ZONE ${zone}</span>]: ${desc} <span style='color: #ff6200;'>${mon}</span>.</span>`);

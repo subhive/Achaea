@@ -2,7 +2,7 @@ List of GMPC attributes:
 https://nexus.ironrealms.com/GMCP
 
 
-
+Room info:
 GMCP.Room.Info.area                     // "Eleusis"
 GMCP.Room.Info.coords                   // "51,2,-2,1"
 GMCP.Room.Info.desc                     // "Deep green ivy winds its way through the diamond-shaped wooden trellises, ..."
@@ -13,8 +13,14 @@ GMCP.Room.Info.name                     // "Sheltered vantage"
 GMCP.Room.Info.num                      // 6745
 
 
-
+Character:
 GMCP.Char.Items.List.items              // list of items in the room
+
+
+
+Rift:
+GMCP.Rift.kelp.amount                   // 2500 (amount of kelp in rift)
+
 
 
 

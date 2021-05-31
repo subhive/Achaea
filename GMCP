@@ -37,3 +37,8 @@ GMCP.gauge_data.maxmana                 // Max mana
 
 
 GMCP.Status.class                       // "Black Dragon", "air Elemental Lady", "Shaman"
+
+
+Using a variable in GMCP:
+    var riftPlant = args[1];
+    print(GMCP.Rift[riftPlant].amount);

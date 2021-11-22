@@ -1,0 +1,26 @@
+// Trigger Text: ^(.+)$
+// Trigger Type: Regular expression
+
+// Execute Script:
+
+if (cdb.inline) {
+    let txt = args[1];
+
+    for (let person in cdb.regex) {
+        ///print(`Person: ${person}`, 'orange');
+        // The \\bs in the RegExp set boundries so you only catch full names
+        // Not names that are substrings of other words
+        //let regexp = new RegExp('\\b'+person+'\\b', 'g');
+        if (cdb.characterServerList[person] != undefined) {
+            let arr;
+            let colour = cdb.city_colours[cdb.characterServerList[person].city];
+
+            while ((arr = cdb.regex[person].exec(txt)) !== null) {
+                //colorize_current_line(arr.index, arr[0].length, 'white', colour);
+                colorize_current_line(arr.index, arr[0].length, colour);
+            }
+        }
+
+    }
+    
+}
